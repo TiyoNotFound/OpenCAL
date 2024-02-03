@@ -1,3 +1,4 @@
+
 # OpenCAL
 
 OpenCAL is an open-source calculator application with multiple engine types, offering a variety of mathematical operations.
@@ -5,10 +6,12 @@ OpenCAL is an open-source calculator application with multiple engine types, off
 ## Features
 
 - **Four Engine Types:**
-  - **engine-1:** Basic arithmetic operations (add, subtract, multiply, divide)
-  - **engine-2:** Faster arithmetic operations (faster_add, faster_subtract, faster_multiply, faster_divide)
-  - **engine-3:** Advanced math operations (cube, square, cubic_root, square_root)
-  - **engine-4:** Custom functions and advanced operations (power, log_base_10, absolute_value, exponential, sin, cos, tan, arcsin, arccos, arctan, cube, square)
+  | Engine Type         | Description                                               |
+  |---------------------|-----------------------------------------------------------|
+  | **engine-1:**       | Basic arithmetic operations (add, subtract, multiply, divide) |
+  | **engine-2:**       | Faster arithmetic operations (faster_add, faster_subtract, faster_multiply, faster_divide) |
+  | **engine-3:**       | Advanced math operations (cube, square, cubic_root, square_root) |
+  | **engine-4:**       | Custom functions and advanced operations (power, log_base_10, absolute_value, exponential, sin, cos, tan, arcsin, arccos, arctan, cube, square) |
 
 - **User-friendly Interface:**
   - Select the desired engine type.
@@ -60,7 +63,6 @@ Engine-4 is a versatile engine that supports custom functions and a wide range o
   - Cube (cube)
   - Square (square)
 
-
 ## Example Implementation
 
 ```python
@@ -96,4 +98,4 @@ Feel free to contribute, report issues, or use the code in your projects!
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-This README now includes an example implementation showcasing how to use the OpenCAL library. Adjust it based on your specific repository details and preferences.
+This version includes a tabulated view of the engine types for better clarity. Adjust it based on your specific repository details and preferences.
